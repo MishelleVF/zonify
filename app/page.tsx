@@ -42,6 +42,8 @@ export default function Home() {
     ],
   })
 
+  
+
   // Get user's location on component mount
   useEffect(() => {
     if (navigator.geolocation) {
